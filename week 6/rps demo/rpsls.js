@@ -1,3 +1,12 @@
+var canvas = document.getElementById('c')
+var ctx = canvas.getContext('2d')
+// drawing the fonts
+ctx.font = '40px Arial';
+ctx.fillstlye = 'blue';
+ctx.strokeStyle = 'green'
+ctx.fillText('welcome to the rpsls Game', 200,280);
+
+
 alert('select rock, paper, scissor, lizard, spock!')
 var rpsls = ['rock','paper','scissors','lizard','spock']
 console.log(rpsls[0]);
