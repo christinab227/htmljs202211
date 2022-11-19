@@ -2,7 +2,7 @@ var canvas = document.getElementById("canvas");
 var ctx = canvas.getContext("2d");
 
 var timer = requestAnimationFrame(Main);
-var x = 100
+var x = 10
 
 var mario = new Image();
 mario.src = "images/mario.png";
